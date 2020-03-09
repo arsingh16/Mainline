@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.amazon.test.AmazonTest">
+        <methods>
+          <include name="setBaseURL"/>
+          <include name="endSession"/>
+          <include name="compare_product_price"/>
+        </methods>
+      </class> <!-- com.amazon.test.AmazonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
